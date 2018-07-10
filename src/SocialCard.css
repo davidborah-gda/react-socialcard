@@ -1,0 +1,54 @@
+.SocialCard-container {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.SocialCard-image {
+    border: 1px solid maroon;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.SocialCard-summary {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.SocialCard-interactions {
+    background-color: lightgrey;
+    width: 100%;
+    border: 1px solid maroon;
+}
+
+.SocialCard-button {
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    width: 3rem;
+    background-color: grey;
+    margin: 1.5rem;
+    
+}
+
+.circle {
+    border-radius: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.like {
+    background-color: lightskyblue;
+}
+
+.dislike {
+    background-color: lightcoral;
+}

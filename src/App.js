@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <SocialCard />
+        <SocialCard imageSrc="https://via.placeholder.com/250x250" />
       </div>
     );
   }

@@ -24,6 +24,7 @@ dislikeIt(){
 }
 
   render() {
+    const { imageSrc } = this.props;
     return (
       <div className="SocialCard-container">
         <section className="SocialCard-summary">
@@ -35,7 +36,7 @@ dislikeIt(){
           </span>
         </section>
         <section className="SocialCard-image">
-          <img src="https://via.placeholder.com/250x250" />
+          <img src={imageSrc} />
         </section>
         <section className="SocialCard-interactions">
           <button className="SocialCard-button like"

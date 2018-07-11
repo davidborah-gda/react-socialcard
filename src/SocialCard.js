@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import "./SocialCard.css";
+import PropTypes from 'prop-types';
 
 class SocialCard extends Component {
   constructor(props) {
@@ -52,5 +53,9 @@ Dislike
     );
   }
 }
+
+SocialCard.propTypes = {
+  imageSrc: PropTypes.string.isRequired
+};
 
 export default SocialCard;

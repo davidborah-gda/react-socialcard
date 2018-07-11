@@ -16,15 +16,20 @@
 }
 
 .SocialCard-summary {
+    width: inherit;
+    border: 1px dashed green;
     position: relative;
-    top: 50px;
-    left: 50px;
+    top: 2rem;;
+    display: flex;
+    padding: .1rem;
+    justify-content: space-between;
 }
 
 .SocialCard-interactions {
     background-color: lightgrey;
-    width: 100%;
     border: 1px solid maroon;
+    display: flex;
+    justify-content: space-around;
 }
 
 .SocialCard-button {

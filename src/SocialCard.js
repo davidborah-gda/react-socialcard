@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 class SocialCard extends Component {
   //equivalent to the legacy way below
   // new way
+  
   static propTypes = {
     imageSrc: PropTypes.string.isRequired
   }

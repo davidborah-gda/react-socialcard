@@ -5,6 +5,11 @@ import "./SocialCard.css";
 import PropTypes from 'prop-types';
 
 class SocialCard extends Component {
+  //equivalent to the legacy way below
+  // new way
+  static propTypes = {
+    imageSrc: PropTypes.string.isRequired
+  }
   constructor(props) {
     super(props);
     this.state = {
@@ -54,8 +59,10 @@ Dislike
   }
 }
 
-SocialCard.propTypes = {
-  imageSrc: PropTypes.string.isRequired
-};
+//legacy way or proptype docs way
+
+// SocialCard.propTypes = {
+//   imageSrc: PropTypes.string.isRequired
+// };
 
 export default SocialCard;

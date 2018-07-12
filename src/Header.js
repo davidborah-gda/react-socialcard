@@ -2,10 +2,11 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import "./Header.css";
 
 
 const Header = (props) => 
-        <header>
+        <header className="Header-container">
             <h1>{props.title}</h1>
         </header>
 

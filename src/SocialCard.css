@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 5px 3px 10px #6d6a6a;
+    margin: 1.5rem 0;
 }
 .SocialCard-image {
     display: flex;

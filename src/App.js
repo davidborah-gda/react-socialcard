@@ -5,6 +5,7 @@ import SocialCard from './SocialCard';
 import "./App.css";
 import Header from './Header';
 import Footer from './Footer';
+import Layout from './Layout';
 
 class App extends Component {
   constructor(props) {
@@ -24,9 +25,11 @@ class App extends Component {
     const cards = this.state.imageUrls
                       .map((url) => <SocialCard imageSrc={url} key={url} />)
     return (
-      <div className="App-container">
+      <div>
       <Header title="Cat Corner" />
+      <Layout>
         {cards}
+        </Layout>
         <Footer />
       </div>
     );

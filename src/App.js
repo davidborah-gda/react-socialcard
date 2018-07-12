@@ -3,6 +3,7 @@
 import React, { Component } from 'react';
 import SocialCard from './SocialCard';
 import "./App.css";
+import Header from './Header';
 
 class App extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class App extends Component {
                       .map((url) => <SocialCard imageSrc={url} key={url} />)
     return (
       <div className="App-container">
+      <Header />
         {cards}
       </div>
     );

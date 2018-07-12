@@ -1,0 +1,9 @@
+.Footer-container {
+    width: 100vw;
+    background-color: lightskyblue;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Sans MS", sans-serif;
+}

@@ -1,7 +1,6 @@
 /* eslint-disable */
 
 import React, { Component } from 'react';
-import SocialCard from './SocialCard';
 import "./App.css";
 import Header from './Header';
 import Footer from './Footer';
@@ -23,8 +22,6 @@ class App extends Component {
     };
   }
   render() {
-    const cards = this.state.imageUrls
-                      .map((url) => <SocialCard imageSrc={url} key={url} />)
     return (
       <div>
       <Header title="Cat Corner" />

@@ -5,7 +5,8 @@ import SocialCard from './SocialCard';
 import "./App.css";
 import Header from './Header';
 import Footer from './Footer';
-import Layout from './Layout';
+import Main from './Main';
+import SocialCardList from './SocialCardList';
 
 class App extends Component {
   constructor(props) {
@@ -27,9 +28,9 @@ class App extends Component {
     return (
       <div>
       <Header title="Cat Corner" />
-      <Layout>
-        {cards}
-        </Layout>
+      <Main>
+        <SocialCardList imageUrls={this.state.imageUrls}/>
+        </Main>
         <Footer />
       </div>
     );

@@ -1,0 +1,16 @@
+.AddCard-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.AddCard-button {
+    height: 2rem;
+    width: 5rem;
+    margin: 0 2rem;
+}
+
+.AddCard-input {
+    height: 2rem;
+    width: 15rem;
+}

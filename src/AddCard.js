@@ -25,7 +25,7 @@ class AddCard extends Component {
 
     render() {
         return (
-            <div className="AddCat-container">
+            <div className="AddCard-container">
                 <input type="text" placeholder="url of the kitty pic"
                  className="AddCard-input" 
                  value={this.state.url} 
